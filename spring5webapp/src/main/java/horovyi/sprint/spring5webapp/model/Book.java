@@ -105,7 +105,7 @@ public class Book {
         sb.append(", title='").append(title).append('\'');
         sb.append(", isbn='").append(isbn).append('\'');
         sb.append(", publisher='").append(publisher).append('\'');
-        sb.append(", authors=").append(authors);
+        sb.append(", author=").append(authors);
         sb.append('}');
         return sb.toString();
     }
