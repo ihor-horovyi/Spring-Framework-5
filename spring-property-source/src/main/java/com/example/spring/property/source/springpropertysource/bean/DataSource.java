@@ -1,12 +1,12 @@
 package com.example.spring.property.source.springpropertysource.bean;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.ToString;
+import lombok.*;
 
 /**
  * Created by ihor.horovyi 2019-02-03
  */
+@Getter
+@Setter
 @Builder
 @AllArgsConstructor
 @ToString

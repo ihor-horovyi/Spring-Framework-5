@@ -15,11 +15,11 @@ import org.springframework.core.env.Environment;
  * Created by ihor.horovyi 2019-02-03
  */
 @Configuration
-//@PropertySource({"classpath:datasource.properties", "classpath:mongo.properties"})
 @PropertySources({
         @PropertySource("classpath:datasource.properties"),
         @PropertySource("classpath:mongo.properties")
 })
+//@PropertySource({"classpath:datasource.properties", "classpath:mongo.properties"})
 public class PropertyConfig {
 
     @Value("${datasource.username}")
